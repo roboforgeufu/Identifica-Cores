@@ -19,7 +19,7 @@ while True:
         #repetir a decisão descoberta na primeira etapa
     print('A cor atual é ',cor)
     #printar a lista de cores obtida
-    for i in len(cores):
+    for i in range(len(cores)):
         print(cores[i])
     #parada
     a = str(input("De novo? "))
